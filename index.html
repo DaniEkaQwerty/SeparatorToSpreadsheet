@@ -1,45 +1,45 @@
 <!doctype html>
 <html lang="id">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Quick Paste to Spreadsheet</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Quicksand:wght@500;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Quick Paste to Spreadsheet</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Quicksand:wght@500;700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container">
     <h2>PART LIST to Spreadsheet</h2>
-    <p>Paste Here</p>
 
     <textarea id="rawInput" placeholder=""></textarea>
     <br />
-    <button id="sendBtn" onclick="processAndSend()">Process</button>
-    <a
-      href="https://docs.google.com/spreadsheets/d/15kXzxD1ZtcdIV206ks-LLlgQadGvymjrUBe_uagu4Lw/edit?usp=sharing"
-      target="_blank"
-    >
-      <button>Open Spreadsheet</button>
-    </a>
-
+    <button id="sendBtn" onclick="processAndSend()">
+      Process
+    </button>
     <div id="status"></div>
 
-    <script src="script.js"></script>
+    <a href="https://docs.google.com/spreadsheets/d/15kXzxD1ZtcdIV206ks-LLlgQadGvymjrUBe_uagu4Lw/edit?usp=sharing"
+      target="_blank" style="text-decoration: none;">
+      <button style="width: 100%; margin-top: var(--spacing-sm);">Open Spreadsheet</button>
+    </a>
+  </div>
 
-    <p
-      style="
+  <script src="script.js"></script>
+
+  <p style="
         position: fixed;
         bottom: 10px;
         right: 10px;
         opacity: 0.5;
         font-size: 12px;
         color: gray;
-      "
-    >
-      Credit: github.com/DaniEkaQwerty
-    </p>
-  </body>
+      ">
+    Credit: github.com/DaniEkaQwerty
+  </p>
+</body>
+
 </html>
