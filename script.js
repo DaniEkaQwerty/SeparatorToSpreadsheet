@@ -1,6 +1,6 @@
 // Ganti dengan URL deployment Apps Script Anda
 const SCRIPT_URL =
-  "https://script.google.com/macros/s/AKfycbzuoCCKWlyWp4OXrBvgIYi2J3t5HxVoWrCtgfHZ4DCW525aFFOnMewmzyE4fsLM5FtM/exec";
+  "https://script.google.com/macros/s/AKfycbxr3lzqE4LAnTSOoAZ39-BCdfZgXB8ifcKcVy6emiR_ZNXfdaT2YHSmRxHykj4QlOU/exec";
 const MARK_HEADER_START = "PARTS LIST INQUIRY";
 const MARK_ITEM_HEADER = "ITEM NUMBER";
 const MARK_BODY_END = "MAIN MENU";
